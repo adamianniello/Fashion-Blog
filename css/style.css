@@ -159,6 +159,15 @@ footer a {
     white-space: nowrap;
 }
 
+footer a:hover {
+     color:#A00;
+}
+
+footer h5 {
+     font-size: 20px;
+     color:#DDD;
+     font-weight: 100;
+}
 
 
 
