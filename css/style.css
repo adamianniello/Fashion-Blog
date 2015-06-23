@@ -49,34 +49,118 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     text-align: center;
-     margin: 20%;
+     font-family: Lato;
 
 }
 
-header h1 a {
+main, header, footer {
+
+     width: 50%;
+     margin: 0px auto 0px auto;
+     
+}
+
+h1 a {
      
      color: red;
      font-family: helvetica;
      text-decoration: none;
      font-weight: 100;
+     font-size: 45px;
+
+
+
      
 }
 
-header h2 {
+h2 {
 
      color: solid-black;
      font-weight: 100;
      font-style: bold;
-     
+
 }
 
-header a {
-     color: gray;
+nav a {
+     color: #EEE;
      font-weight: 100;
-     text-align: center;
-     margin: 10px;
+     width: 100;
+     padding: 0px;
+     font-size: 20px;
+     display: table-cell;
+    height: 0px;
+    width: 10.666666667%;  /* (100 / numItems)% */
+    line-height: 50px;
+    text-align: center;
+    background: #white-space;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+
+      }
+
+
+
+h3 {
+     color: #DDD;
+     font-weight: 100;
+     width: 100%;
+     font-size: 30px;
 }
+
+h2 a {
+
+     color: #444;
+     font-weight: 100;
+     text-decoration: none;
+}
+
+
+img {
+    width:95%; /* you can use % */
+    height: auto;
+}
+
+p span {
+     font-size: 50px;
+     color: #CCC;
+     font-weight: 100px;
+}
+
+p {
+     font-size: 15px;
+     color: #444;
+}
+
+h4 a {
+     color: #D00;
+     float:right;
+}
+
+h4 a:hover {
+     color:#A00;
+}
+
+
+hr {
+     width 50%;
+     float: right;
+}
+
+footer a {
+     color: #D00;
+     display: table-cell;
+     font-size: 15px;
+    height: 20px;
+    width: 14.666666667%;  /* (100 / numItems)% */
+    line-height: 100px;
+    text-align: center;
+    background: #white-space;
+    border-right: 1px solid #fff;
+    white-space: nowrap;
+}
+
+
+
+
 
 
